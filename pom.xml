@@ -3,10 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.t246osslab.easybuggy</groupId>
-	<artifactId>easybuggy</artifactId>
-	<version>1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<groupId>com.wfs</groupId>
+	<artifactId>vtrade-core</artifactId>
+	<version>1.0</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,16 +22,6 @@
 	</properties>
 
 	<profiles>
-		<profile>
-			<id>JDK8-Switch</id>
-			<activation>
-				<jdk>1.8</jdk>
-			</activation>
-			<properties>
-				<jvm.args.perm.size>-XX:MaxMetaspaceSize=128m</jvm.args.perm.size>
-				<jvm.args.gc.log.path>-Xloggc:logs/gc_%p_%t.log</jvm.args.gc.log.path>
-			</properties>
-		</profile>
 		<profile>
 			<id>JDK11-Switch</id>
 			<activation>
@@ -53,6 +42,12 @@
 	</profiles>
 	
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+    			<groupId>org.apache.logging.log4j</groupId>
+    			<artifactId>log4j-core</artifactId>
+	    		<version>2.14.1</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
