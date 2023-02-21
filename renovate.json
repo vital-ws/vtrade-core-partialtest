@@ -1,0 +1,12 @@
+{
+  "hostRules": [
+    {
+      "matchHost": "https://maven.pkg.github.com/WFS-Mend/vtrade-common",
+      "hostType": "maven",
+      "username": "samq-ws",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf5ASiMX+MA8TY0vOqZEvXT64xuozXzmQItryAXcSkN9fOeJllIsv3cKKyeBuEJSTgbHwJ/T2FvrYR5kiBHsddpIF0C90GkQiGFztc+rqutjXu20BiCG6FQ2AfU4h6ru/Q/Y0KcGDq2v3kdKiXZsEWj3HjQNaahq4Of8hZkdzosDd16kb+ZA6pkifjYZXwVJGNOLTBv+n8FJBel/4XmFzaGQ1ME88reCpQdUpBQ9kxC7OrtfXu+GwA28Fb0tTj8QoalB+KtzIqGcSSxs9E0hXywLrVhjS+/bvIz0IjGCKEF+3Fvgsikf7ydEuropRQzDlG0Jb8aSJMGnf6KV8l/ePOBvtJ3AcCwdIYBHWKYmKPmPj5CTu+yhn2Ko2taF+WDp4eHUrqpxbO+R8ASSYShy/GsXncFY5H/TO5efmSTzKjxKKzrvJTcr+D3X8nlGlspIaVwaJYMAdzI8nUk6IOqITl5nbk0YnObCYItlhlsOV4pgRA3GxtMw1SqYfM"
+      }
+    }
+  ]
+}
