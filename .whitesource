@@ -1,0 +1,9 @@
+{
+  "settingsInheritedFrom": "samq-democorp/whitesource-config@main",
+  "scanSettings": {
+      "enableReachability": true
+  },
+  "checkRunSettings": {
+    "strictMode": "warning"
+  }
+}
